@@ -21,7 +21,6 @@ body, html{
   height: 400px;
 }
 .image{
-  background-color: red;
   height: 100%;
   border-radius: 10px 0px 0px 10px;
 }
