@@ -1,0 +1,125 @@
+body, html{
+  background-color:blue ;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+.preview-wrapper-web{
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  height: 400px;
+}
+.image{
+  background-color: red;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+.image img {
+  border-radius: 10px 0px 0px 10px;
+}
+#web-img{
+  height: 100%;
+}
+#mobile-img {
+  display: none;
+}
+.info{
+  height: 100%;
+  padding: 0 40px 0 30px;
+  position: relative;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template-rows: 10% 25% 30% 15% 15%;
+  box-sizing: border-box;
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 10px 10px 0px;
+}
+.header {
+  grid-row: 1/2;
+  letter-spacing: 3px;
+  font-size: 10px;
+  align-self: center;
+}
+.item-type {
+  margin-top: 10px;
+}
+.title {
+  grid-row: 2/3;
+  align-self: center;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+
+}
+.description {
+  grid-row: 3/4;
+}
+.price-wrapper {
+  grid-row: 4/5;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.discounted-price{
+  font-family: 'Fraunces', serif;
+  color: rgba(61,129,104,255);
+}
+.price{
+  font-size: 12px;
+}
+.btn-wrapper{
+  background-color: rgba(61,129,104,255);
+  border-radius: 5px;
+  align-self: center;
+  color: white;
+  grid-row: 5/6;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-wrapper:hover{
+  background-color: rgba(26,64,49,255);
+  cursor: pointer;
+
+}
+.attribution { position: absolute; font-size: 11px; text-align: center; bottom: 10px; left: 0; right: 0; margin-left: auto; margin-right: auto; width: 100%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 642px) {
+  .preview-wrapper-web {
+      flex-direction: column;
+      width: 340px;
+      height: 560px;
+  }
+  .image {
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .image img {
+    border-radius: 10px 10px 0px 0px;
+  }
+  #web-img{
+    display: none;
+  }
+  #mobile-img{
+    display: block;
+    width: 100%;
+  }
+  .info{
+    border-radius: 0px 0px 10px 10px;
+  }
+}
