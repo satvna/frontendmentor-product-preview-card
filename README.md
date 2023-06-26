@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://satvna.github.io/frontendmentor-product-preview-card/)
+- Live Site URL: [Github Pages](https://satvna.github.io/frontendmentor-product-preview-card/)
 
 ## My process
 - Separated text into divs for structure
@@ -58,4 +58,4 @@ Users should be able to:
 ## Author
 
 - Website - [satvna](https://github.com/satvna)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@sweetmille](https://www.frontendmentor.io/profile/sweetmille)
