@@ -50,6 +50,8 @@ Users should be able to:
 - There is an onclick property for divs
 - Margins are a good way to move elements up & down, while still in flex or grid containers
 - Landmarks are a thing that exist and should be used for screen reader accessibility
+- <strike> has been deprecated, so you should use <del> instead
+- Typing words in all uppercase will cause screen readers to spell out the word, so you should type words normally and transform them with text-transform: uppercase
 
 ### Useful resources
 
