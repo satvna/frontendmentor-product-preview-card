@@ -49,11 +49,13 @@ Users should be able to:
 - Setting html and body to 100% width/height allows you to take up the entire viewport
 - There is an onclick property for divs
 - Margins are a good way to move elements up & down, while still in flex or grid containers
+- Landmarks are a thing that exist and should be used for screen reader accessibility
 
 ### Useful resources
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Flexbox tricks.
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - CSS Grid tricks.
+- [Accessible Landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html) - A guide to landmarks
 
 ## Author
 
