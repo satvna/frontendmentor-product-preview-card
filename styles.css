@@ -54,7 +54,7 @@ body, html{
   text-transform: uppercase;
 }
 .item-type {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .title {
   grid-row: 2/3;
